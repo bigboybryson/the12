@@ -13,7 +13,7 @@ sprite.addImage(img);
 group.add(sprite);
   score = 0 ;
   pause=0;
-  coincollect=6;
+  coincollect=4;
   time2=0;
   start=false;
 }
@@ -88,7 +88,7 @@ group.add(sprite);
    if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
-   coincollect=coincollect+2;
+   coincollect=coincollect+.5;
              score = score+1;
  sprite2.x=random(150, 400);
       sprite2.y=random(20, 400);
