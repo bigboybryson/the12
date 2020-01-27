@@ -5,7 +5,6 @@ function setup(){
   
     createCanvas(900,400);
 
-    size(900,400);
 
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
