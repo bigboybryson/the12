@@ -43,7 +43,6 @@ group.add(sprite);
   
   
   
-  frameRate=60
   textSize(50);
   sprite.scale=.50;
   
