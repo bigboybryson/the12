@@ -10,7 +10,6 @@ function setup(){
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
-  time=0
   sprite = createSprite(10, 200,0,0);
 img=loadImage("s.png")
 sprite.addImage(img);
@@ -31,12 +30,7 @@ group.add(sprite);
 
  function draw() {
  
-  if (sprite.x<400) {
-    time=time+1;
-  } else {
-   time=time
-  }
-  
+
   
   
       
@@ -67,7 +61,6 @@ group.add(sprite);
              coincollect=6;
           
           sprite.x=50
-          time=0;
           score=0
            sprite2.x=random(400, 900);
                 sprite2.y=random(50,370);
@@ -108,10 +101,6 @@ text(score,192,82 );
     fill("yellow");
 fill("red");
 
-text(time/15,192,350 );
-fill("yellow");
-
-text('time',192,300 );
 
 if (pause===1)
 {
