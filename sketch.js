@@ -1,7 +1,10 @@
 function preload(){
   mySound = loadSound('ppe.mp3');
 }
-function setup(){    sprite2=createSprite(150,200,0,0);
+function setup(){   
+    resizeCanvas(900,400);
+
+  sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
