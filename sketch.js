@@ -25,6 +25,7 @@ if (start===0)
 {text("press A to start",450,200)
     if (keyDown("p"))
     {start=1}
+}
 
 
 
