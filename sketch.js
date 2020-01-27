@@ -1,5 +1,7 @@
 function preload(){
   mySound = loadSound('ppe.mp3');
+  var  start = .2;
+
 }
 function setup(){  
     createCanvas(900,400);
@@ -18,7 +20,6 @@ group.add(sprite);
   pause = 0;
   coincollect = 4;
   time2 = 0;
-  start = .2;
 }
 
 if (start<0)
