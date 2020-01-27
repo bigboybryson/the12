@@ -15,10 +15,10 @@ sprite.addImage(img);
   group = createGroup();
 group.add(sprite);
   score = 0 ;
-  pause=0;
-  coincollect=4;
-  time2=0;
- var start=.2;
+  pause = 0;
+  coincollect = 4;
+  time2 = 0;
+  start = .2;
 }
 
 if (start<0)
