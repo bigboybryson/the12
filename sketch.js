@@ -70,8 +70,8 @@ group.add(sprite);
           sprite.x=50
           time=0;
           score=0
-           sprite2.x=random(150, 400);
-                sprite2.y=random(20, 400);
+           sprite2.x=random(400, 900);
+                sprite2.y=random(50,370);
               }
     
     
@@ -95,8 +95,8 @@ group.add(sprite);
      sprite.x=0;
    coincollect=coincollect+.5;
              score = score+1;
- sprite2.x=random(150, 400);
-      sprite2.y=random(20, 400);
+ sprite2.x=random(400,900);
+      sprite2.y=random(20,370);
       }
 
 
