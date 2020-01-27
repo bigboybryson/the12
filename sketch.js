@@ -18,10 +18,10 @@ group.add(sprite);
   pause=0;
   coincollect=4;
   time2=0;
- var start=0;
+ var start=.2;
 }
 
-if (start===0)
+if (start<0)
 {text("press A to start",450,200)
     if (keyDown("p"))
     {start=1}
