@@ -13,7 +13,7 @@ sprite.addImage(img);
 group.add(sprite);
   score = 0 ;
   pause=0;
-  var coincollect=4;
+  coincollect=12;
   time2=0;
   start=false;
 }
@@ -60,7 +60,7 @@ group.add(sprite);
     }
      if (keyDown("space")) {
           sprite.y =200
-             coincollect=4;
+             coincollect=12;
           
           sprite.x=50
           time=0;
