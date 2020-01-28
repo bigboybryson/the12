@@ -1,6 +1,6 @@
 function preload(){
   mySound = loadSound('ppe.mp3');
-  start=.5;
+ var xs=.5;
 
 }
 function setup(){  
@@ -22,7 +22,7 @@ group.add(sprite);
   time2 = 0;
 }
 
-if (start<0)
+if (xs<0)
 {text("press A to start",450,200)
     if (keyDown("p"))
     {start=1}
@@ -30,7 +30,7 @@ if (start<0)
 
 
 
-if (start=1) {
+if (xs=1) {
  function draw() {
  
 
