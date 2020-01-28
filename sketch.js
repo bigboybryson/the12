@@ -1,6 +1,6 @@
 function preload(){
   mySound = loadSound('ppe.mp3');
-  var  start = .2;
+  start=.5;
 
 }
 function setup(){  
